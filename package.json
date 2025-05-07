@@ -1,0 +1,43 @@
+{
+  "name": "postcss-dir-tailwind-fix",
+  "version": "1.0.0",
+  "description": "PostCSS plugin postcss-dir-tailwind-fix",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-dir-tailwind-fix"
+  ],
+  "author": "Ammar1999y <thesyclashers.911@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ammar1999y/postcss-dir-tailwind-fix"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.27"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "postcss": "^8.4.27"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  }
+}
