@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars */
 /**
  * @type {import('postcss').PluginCreator}
  */
@@ -16,7 +16,7 @@ module.exports = (opts = {}) => {
             /:where\((?:[^()]*|\([^()]*\))*\)/g,
             ""
           );
-          rule.selector = `[dir=${
+          rule.selector = `html[dir=${
             rule.selector.includes("rtl\\:") ? "rtl" : "ltr"
           }] ${rule.selector}`;
         }
